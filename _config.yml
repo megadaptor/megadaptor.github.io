@@ -1,7 +1,7 @@
 # SEO settings
-title: Megadaptor
-description: "dinosaurs, programming, and parsnips"
-keywords: "dinosaurs, programming, parsnips"
+title: megadaptor
+description: "blog"
+keywords: "hacking, ctf, writeups"
 url: https://megadaptor.github.io
 baseurl: null
 
