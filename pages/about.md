@@ -20,5 +20,5 @@ I’m a beginner CTF player in my team, focusing on mostly forensics and web, pl
 
 I develop programs occasionally if I get a sudden “eureka” moment and want to bring it into life, but I want to work on something bigger in scope - so if you’re interested in working and learning together, I’d love to!</p>
 
-[<a class='no-after' href="https://www.linkedin.com/in/tasneem-johan-77866a200/" target="_blank">linkedin</a>] [<a href="/assets/resume.pdf" class='no-after' target="_blank">resume</a>] [<a href="https://www.github.com/vsoch" class='no-after' target="_blank">github</a>] 
+[<a class='no-after' href="https://www.linkedin.com/in/tasneem-johan-77866a200/" target="_blank">linkedin</a>] [<a href="/assets/resume.pdf" class='no-after' target="_blank">resume</a>] [<a href="https://www.github.com/megadaptor" class='no-after' target="_blank">github</a>] 
 

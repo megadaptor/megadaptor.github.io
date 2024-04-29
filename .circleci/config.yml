@@ -46,7 +46,7 @@ jobs:
 
       - store_artifacts:
           path: ./_site
-          destination: vsoch.github.io
+          destination: megadaptor.github.io
 
 workflows:
   version: 2
