@@ -161,7 +161,7 @@ table {
 }
 
 .button:disabled:hover {
-    background-color: #fd1268;
+    background-color: #bd1a20;
 }
 
 fieldset {
@@ -259,7 +259,7 @@ input[type="week"]:focus,
 input:not([type]):focus,
 textarea:focus,
 select[multiple=multiple]:focus {
-    border-color: #fd1268;
+    border-color: #bd1a20;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(223, 19, 27, 0.7);
     outline: none
 }
@@ -444,7 +444,7 @@ p.lead {
 }
 
 a {
-    color:#fd1268;
+    color:#bd1a20;
     text-decoration: none;
     transition: color 150ms ease
 }
@@ -631,7 +631,7 @@ hr {
 }
 
 .intro .author-name {
-    background-color: #fd1268;
+    background-color: #a82727;
     color: #fff;
     display: inline-block;
     padding: 0 .3em

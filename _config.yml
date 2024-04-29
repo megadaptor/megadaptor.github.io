@@ -1,8 +1,8 @@
 # SEO settings
-title: VanessaSaurus
+title: Megadaptor
 description: "dinosaurs, programming, and parsnips"
 keywords: "dinosaurs, programming, parsnips"
-url: https://vsoch.github.io
+url: https://megadaptor.github.io
 baseurl: null
 
 # Build settings
@@ -15,9 +15,7 @@ kramdown:
  syntax_highlighter: rouge
 
 # Social networking, etc
-repo: http://github.com/vsoch/vsoch.github.io
-google_analytics: 'UA-67197905-1'
-disqus_shortname: "vsoch"
+repo: http://github.com/megadaptor/megadaptor.github.io
 
 defaults:
     -
@@ -64,20 +62,14 @@ destination: _site
 
 # Author settings
 author:
-  name     : VanessaSaurus
-  job      : Software Engineer
-  bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
+  name     : megadaptor
+  bio      : "i love tinkering with everything."
   thumb    : /images/author.jpg
-  url      : https://vsoch.github.io
-  github   : http://github.com/vsoch
-  twitter  : http://twitter.com/vsoch
-  facebook : http://facebook.com/vsochat
-
+  url      : https://megadaptor.github.io
+  github   : http://github.com/megadaptor
+  linkedin : https://linkedin.com/in/tasneem-johan-77866a200/
 # social settings
 og_locale: "en_US"
-twitter_card: "summary"
-twitter_site: "@vsoch"
-twitter_image: https://vsoch.github.io/assets/images/avatar.png
 
 plugins:
   - jekyll-paginate
