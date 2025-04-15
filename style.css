@@ -170,3 +170,56 @@ body {
         animation: flicker 0.15s infinite;
       }
       
+/* Mobile-specific adjustments */
+@media screen and (max-width: 599px) {
+  #parallax-wrapper {
+      background-size: cover;
+      height: 100vh;
+      background-position: center center !important; /* Override JS positioning */
+  }
+  
+  #main {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) !important; /* Center the text */
+      width: 80%;
+      text-align: center;
+  }
+  
+  html {
+      font-size: 0.9em;
+      text-shadow: 0.04rem 0 0.04rem #ea36af, -0.08rem 0 0.04rem #75fa69;
+  }
+  
+  .hover-underline::after,
+  .hover-underline::before {
+      display: none; /* Remove hover effects on mobile */
+  }
+}
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 599px) {
+  #parallax-wrapper {
+      background-size: cover;
+      height: 100vh;
+      background-position: center center !important; /* Override JS positioning */
+  }
+  
+  #main {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) !important; /* Center the text */
+      width: 80%;
+      text-align: center;
+  }
+  
+  html {
+      font-size: 0.9em;
+      text-shadow: 0.04rem 0 0.04rem #ea36af, -0.08rem 0 0.04rem #75fa69;
+  }
+  
+  .hover-underline::after,
+  .hover-underline::before {
+      display: none; /* Remove hover effects on mobile */
+  }
+}
