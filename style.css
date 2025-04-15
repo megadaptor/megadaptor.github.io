@@ -44,7 +44,8 @@ body {
     color: #d29d48;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     text-decoration: none;
-  }
+    display: inline-block; 
+}
 
   h2:hover {
     box-shadow: inset 100px 0 0 0 #d29d48;
@@ -221,5 +222,32 @@ body {
   .hover-underline::after,
   .hover-underline::before {
       display: none; /* Remove hover effects on mobile */
+  }
+  
+  h2 {
+      position: relative;
+  }
+  
+  h2:hover {
+      box-shadow: inset 0 0 0 0 #d29d48; /* Reset the box-shadow */
+      color: white;
+  }
+  
+  h2::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #d29d48;
+      z-index: -1;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  h2:hover::after {
+      transform: scaleX(1);
   }
 }
