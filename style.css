@@ -210,9 +210,21 @@ body {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) !important; /* Center the text */
-      width: 80%;
+      width: auto;
+      max-width: 80%;
       text-align: center;
+      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+      padding: 1.5em;
+      border-radius: 5px;
+      box-shadow: 0 0 15px #d29d48; /* Yellow glow */
+      backdrop-filter: blur(2px); /* Slight blur for depth */
   }
+
+  #main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
   
   html {
       font-size: 0.9em;
@@ -226,6 +238,8 @@ body {
 
   h2 {
       position: relative;
+      margin: 0;
+      padding: 0.2em 0;
   }
   
   h2:hover {
