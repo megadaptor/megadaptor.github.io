@@ -250,14 +250,9 @@ body {
   h2:hover::after {
       transform: scaleX(1);
   }
+
+  h2.hover {
+    color: white;
+}
 }
 
-/* Add this for mobile touch hover states */
-@media screen and (max-width: 599px) {
-  h2.hover::after {
-      transform: scaleX(1);
-  }
-  h2.hover {
-      color: white;
-  }
-}
